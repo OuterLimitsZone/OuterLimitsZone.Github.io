@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Odibee+Sans&display=swap');
+
+body {
+  background-image: url(https://i.imgur.com/B9wVlk4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.portal {
+  background-color: #10121b66;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  box-shadow: 10px 10px 15px;
+  width:95vw;
+  height:95vh;
+}
+h1 {
+  color: white;
+  user-select: none;
+  margin: 0.1em;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 4em;
+  border-bottom: 5px solid white;
+}
+h2{
+  color: white;
+  user-select: none;
+  margin: 0.1em;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3em;
+}
+p{
+ color: white;
+  user-select: none;
+  margin: 0.1em;
+  font-family: 'Odibee Sans', cursive;
+  font-weight: normal;
+  font-size: 2em; 
+}
